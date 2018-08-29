@@ -1,0 +1,74 @@
+/* Exchange-Rates */
+.Exchange-Rates h1 {
+  font: 25px/25px 'Source Sans Pro', sans-serif;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Exchange-Rates .btn {
+  font: 16px/16px 'Source Sans Pro', sans-serif;
+  text-align: center;
+  background-color: #34495e;
+  color: white;
+  border: none;
+  padding: 8px 8px;
+}
+
+.Exchange-Rates .container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Exchange-Rates-Table */
+.Exchange-Rates-Table {
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #000;
+  margin: 16px;
+  float: left;
+}
+
+.Exchange-Rates-Table th, .Exchange-Rates-Table td {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  padding: 8px;
+}
+
+.Exchange-Rates-Table th {
+  color: white;
+  background-color: #2c3e50;
+  font-weight: normal;
+}
+
+.Exchange-Rates-Table th.sort-asc {
+  background: #2c3e50 url('/white-asc.gif') 95% 16px no-repeat;
+  padding-right: 16px;
+}
+
+.Exchange-Rates-Table th.sort-dsc {
+  background: #2c3e50 url('/white-desc.gif') 95% 16px no-repeat;
+  padding-right: 16px;
+}
+
+.Exchange-Rates-Table tr:nth-child(odd) {
+  background-color: #ecf0f1;
+}
+
+.Exchange-Rates-Table tr.highlighted {
+  color: #e74c3c;
+}
+
+/* Exchange-Rates-Control  */
+.Exchange-Rates-Control {
+  margin: 16px;
+  float:left;
+  text-align: right;
+  width: 45%;
+}
+
+.Exchange-Rates-Control input, .Exchange-Rates-Control select {
+  width: 100px;
+  margin-left: 8px;
+}
